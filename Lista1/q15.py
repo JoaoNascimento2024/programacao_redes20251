@@ -1,0 +1,5 @@
+arquivo = open("q15.csv","r")
+linhas = arquivo.readlines()
+numeroLinhas = len(linhas)
+print(f"Número de linhas: {numeroLinhas}")
+arquivo.close()
