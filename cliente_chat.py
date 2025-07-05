@@ -1,6 +1,10 @@
 import socket
 import threading
 
+#Importar módulo tkinter e componentes
+import tkinter as tk
+from tkinter import scrolledtext, messagebox
+
 def receber_mensagem(cliente):
     while True:
         try:
